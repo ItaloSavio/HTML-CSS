@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    
+    <!-- Painel de Login com "Nome, Email e senha "-->
+    <form>
+        <label for="Nome">Nome:</label>
+        <input type="text" id="Nome" name="nome" required> <br> <br>
+        <label for="Email:">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="Password">- Password:</label>
+        <input type="Password" id="psw" name="psw" required>
+    </form>
+    <br>
+
+    <!--Complemento com data da nascimento foto e etc...-->
+    <form>
+        <label for="birthday">Data de nascimento:</label>
+        <input type="date" id="date" name="date"> -
+        <label for="photo">Foto:</label>
+        <input type="file" name="photo" id="photo" > <br> <br>
+
+        <label for="nationality">Nacionalidade</label>
+        <select id="nationality" name="nationality">
+            <option value="Ruissian">Russo</option>
+            <option value="American">Americano</option>
+            <option value="Brasilian">Brasileiro</option>
+        </select>
+        - Genero
+        <label for="female">F</label>
+        <input type="radio" name="gender" id="female"  value="female">
+        <label for="male">M</label>
+        <input type="radio" name="gender" id="male"  value="male">
+        
+        <br> <br>
+
+        Suas principais qualidades: <br>
+        <label for="intelligent">Inteligente</label>
+        <input type="checkbox" id="intelligent" name="intelligent">
+        |
+        <label for="resilience">Resiliência</label>
+        <input type="checkbox" id="resilience" name="resilience">
+        |
+        <label for="physical preparation">Preparo Fisico</label>
+        <input type="checkbox" id="physical preparatio" name="physical preparation">
+        |
+        <label for="education">Educação</label>
+        <input type="checkbox" id="education" name="education">
+    </form><br><br>
+    
+    <!--areia de texto e botao-->
+    
+    <textarea name="texto" id="texto" cols="30" rows="10">Porque você gostaria de ser um astronauta?</textarea>
+<br>
+<br>
+    <input type="submit" id="submit" name="submite" value="Criar">
+
+</body>
+</html>
