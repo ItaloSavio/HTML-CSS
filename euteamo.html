@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vocemeama?</title>
+    <link rel="stylesheet" href="styleamor.css">
+</head>
+<body>
+    
+    <audio controls>
+        <source src="SnapInsta.io - Ed Sheeran - Thinking Out Loud [Official Audio] (128 kbps).mp3" type="audio/mp3">
+    </audio>
+
+    <div id="corpo">
+        <h1>Eu amo muito você!!</h1>
+        
+        <img src="i-love-you-png-5a3a53c39ad9b0.1576668315137719716343.jpg" alt="s">
+        
+        <h4>você me ama?</h4>
+        
+        <a href="https://www.youtube.com/watch?v=WAJHJgKj1HY"><button id="sim"> Sim! </button></a>
+        <button onmousemove="fuja()" id="nao"> Não! </button>
+        
+    </div>
+
+    <script>
+        function fuja(){
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    text-align:center;
+    background-color: red;
+}
+
+#corpo {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px black;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    padding-top: 50px;
+}
+
+img {
+    width: 180px;
+    height: 200px;
+}
+
+#sim {
+    height: 40px;
+    width: 60px;
+    margin-left: -50px;
+}
+
+#nao {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    margin-left: 10px;
+
+}
+
+button {
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 10px;
+}
